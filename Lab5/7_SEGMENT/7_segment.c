@@ -18,103 +18,103 @@ void SEVEN_SEGMENT_voidDisplyNumber(uint8 Copy_uint8CommonType, uint8 Copy_uint8
 	  {
 
 	   case 0:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, LOW);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, LOW);
 		break;
 
 		case 1:
-			GPIO_voidWritePin(GPIO_B, 0, LOW);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, LOW);
+			GPIO_voidWritePin(GPIO_A, 0, LOW);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, LOW);
 		break;
 
 		case 2:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, LOW);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, LOW);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 3:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 4:
-			GPIO_voidWritePin(GPIO_B, 0, LOW);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, LOW);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 5:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 6:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 7:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 8:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 9:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
         
 		default:
@@ -126,103 +126,103 @@ void SEVEN_SEGMENT_voidDisplyNumber(uint8 Copy_uint8CommonType, uint8 Copy_uint8
 	  {
 
 	   case 0:
-			GPIO_voidWritePin(GPIO_B, 0, LOW);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, LOW);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, LOW);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, LOW);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 1:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, LOW);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, LOW);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
         /* Ma kmltsh elly taht*/
 		case 2:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, LOW);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, LOW);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 3:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 4:
-			GPIO_voidWritePin(GPIO_B, 0, LOW);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, LOW);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 5:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 6:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, LOW);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, LOW);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 7:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, LOW);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, LOW);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, LOW);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, LOW);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 8:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, HIGH);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, HIGH);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
 
 		case 9:
-			GPIO_voidWritePin(GPIO_B, 0, HIGH);
-			GPIO_voidWritePin(GPIO_B, 1, HIGH);
-			GPIO_voidWritePin(GPIO_B, 2, HIGH);
-			GPIO_voidWritePin(GPIO_B, 3, HIGH);
-			GPIO_voidWritePin(GPIO_B, 4, LOW);
-			GPIO_voidWritePin(GPIO_B, 5, HIGH);
-			GPIO_voidWritePin(GPIO_B, 6, HIGH);
+			GPIO_voidWritePin(GPIO_A, 0, HIGH);
+			GPIO_voidWritePin(GPIO_A, 1, HIGH);
+			GPIO_voidWritePin(GPIO_A, 2, HIGH);
+			GPIO_voidWritePin(GPIO_A, 3, HIGH);
+			GPIO_voidWritePin(GPIO_A, 4, LOW);
+			GPIO_voidWritePin(GPIO_A, 5, HIGH);
+			GPIO_voidWritePin(GPIO_A, 6, HIGH);
 		break;
         
 		default:
