@@ -4,5 +4,6 @@
 ### <a href="https://github.com/ezzat223/ARM_CORTEX_M4_STM32F4/tree/main/Lab4">LAB 4: </a>Interface 7_SEGMENT. 
 ### <a href="https://github.com/ezzat223/ARM_CORTEX_M4_STM32F4/tree/main/Lab5">LAB 5: </a>Interface KEYPAD with 7_SEGMENT. 
 ### <a href="https://github.com/ezzat223/ARM_CORTEX_M4_STM32F4/tree/main/Lab8">LAB 8: </a>External Interrupts and System Configurations.
+### <a href="https://github.com/ezzat223/ARM_CORTEX_M4_STM32F4/tree/main/Lab9">LAB 9: </a>SPI Interface with TC72.
 
 
